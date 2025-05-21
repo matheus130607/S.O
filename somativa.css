@@ -1,0 +1,58 @@
+/* Resetando margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo fonte padrão e cor de fundo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilizando o título principal */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+/* Estilizando os subtítulos */
+h2 {
+    color: #2980b9;
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+
+/* Estilizando os parágrafos */
+p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Estilizando as listas */
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+/* Adicionando bordas e espaçamento aos parágrafos */
+p, ul {
+    border-left: 4px solid #2980b9;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+/* Adicionando um rodapé discreto */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-top: 40px;
+}
